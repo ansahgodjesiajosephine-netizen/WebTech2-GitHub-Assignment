@@ -15,86 +15,130 @@
 </head>
 <body>
     
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Knowledge Hub Library</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
 <div class="container-fluid">
     <div class="row">
 
-        <!-- Left Navigation Menu -->
+        <!-- Sidebar -->
         <div class="col-md-3 sidebar">
-            <h3>My Website</h3>
+            <h3>Knowledge Hub</h3>
 
-            <a href="#">Home</a>     <br>
-            <a href="#">About</a>    <br>
-            <a href="#" class="active">Services</a><br>
-            <a href="#">Contact</a>
+            <a href="#">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#books">Available Books</a>
+            <a href="#services">Our Services</a>
+            <a href="#contact">Contact</a>
         </div>
 
-        <!-- Main Page Content -->
-       
-<div class="col-md-9 content">
+        <!-- Main Content -->
+        <div class="col-md-9 content">
 
-    <header class="page-header">
-        <h1>Page Title</h1>
-        <p>A subtitle for your page goes here</p>
-    </header>
+            <!-- Header -->
+            <header class="page-header">
+                <h1>Welcome to Knowledge Hub Library</h1>
+                <p>Your gateway to knowledge, learning and discovery.</p>
+            </header>
 
-    <h3>How to use this layout</h3>
+            <!-- About Section -->
+            <section id="about">
+                <h3>About Our Library</h3>
 
-    <p>
-        To use this layout, you can simply copy and paste
-        the HTML along with the CSS. This design uses
-        Bootstrap to make the webpage responsive.
-    </p>
+                <p>
+                    Knowledge Hub Library is a place where students,
+                    researchers and book lovers can explore information
+                    and develop their knowledge. We provide a peaceful
+                    learning environment with access to different
+                    categories of books and educational resources.
+                </p>
+            </section>
 
-    <h3>Now Let's Speak Some Latin</h3>
+            <!-- Books Section -->
+            <section id="books">
+                <h3>Explore Our Books</h3>
 
-    <p>
-        Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat.
-    </p>
-    
-<!-- Image Gallery -->
-<div class="row image-gallery mt-3">
+                <p>
+                    Discover books from different categories,
+                    including technology, business, education and literature.
+                </p>
 
-    <div class="col-6 col-md-3">
-        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=500"
-             class="img-fluid" alt="Beautiful landscape">
+                <div class="row image-gallery mt-3">
+
+                    <div class="col-6 col-md-3">
+                        <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500"
+                        class="img-fluid" alt="Open book">
+                        <p>Education</p>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500"
+                        class="img-fluid" alt="Books">
+                        <p>Literature</p>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=500"
+                        class="img-fluid" alt="Library books">
+                        <p>Technology</p>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=500"
+                        class="img-fluid" alt="Library shelves">
+                        <p>Research</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section id="services">
+                <h3>Our Library Services</h3>
+
+                <ul>
+                    <li>Book borrowing and returning</li>
+                    <li>Access to academic research materials</li>
+                    <li>Quiet reading and study areas</li>
+                    <li>Internet and digital learning resources</li>
+                </ul>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact">
+                <h3>Contact Us</h3>
+
+                <p>
+                    Visit Knowledge Hub Library for a better learning
+                    experience. We are always ready to support your
+                    educational journey.
+                </p>
+                <p>Email: info@knowledgehub.com</p>
+            </section>
+
+            <footer class="text-center mt-4">
+                <p>&copy; 2026 Knowledge Hub Library. All rights reserved.</p>
+            </footer>
+
+        </div>
     </div>
-
-    <div class="col-6 col-md-3">
-        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=500"
-             class="img-fluid" alt="Mountain scenery">
-    </div>
-
-    <div class="col-6 col-md-3">
-        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500"
-             class="img-fluid" alt="Restaurant">
-    </div>
-
-    <div class="col-6 col-md-3">
-        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500"
-             class="img-fluid" alt="Nature scenery">
-    </div>
-
 </div>
 
-<h3 class="mt-4">Try Resizing your Browser</h3>
-
-<p>
-        Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat.
-    </p>
-
-
-
-</div>
 
 
 </body>
